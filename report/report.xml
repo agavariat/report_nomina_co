@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+		<template id="report_nomina_co" inherit_id="eq_payslip_custom_pdf_report.report_custom_payslip_temp_document">
+			<xpath expr="//div[@class='page']" position="replace">
+<span>Hola</span>
+
+			</xpath>
+		</template>
+</data>
+</odoo>
+           
